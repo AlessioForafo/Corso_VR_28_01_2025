@@ -97,16 +97,40 @@ Project:
    Uri: 'urn:FTOptix:Recipe:Net'
    Module: FTOptix.Recipe.Net
    Version: 1.0
+  25:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.2
+  26:
+   Uri: 'urn:FTOptix:WebUI:Net'
+   Module: FTOptix.WebUI.Net
+   Version: 1.2
+  27:
+   Uri: 'urn:FTOptix:Alarm'
+   Module: FTOptix.Alarm
+   Version: 6.0
+  28:
+   Uri: 'urn:FTOptix:Alarm:Net'
+   Module: FTOptix.Alarm.Net
+   Version: 1.2
+  29:
+   Uri: 'urn:FTOptix:OPCUAServer'
+   Module: FTOptix.OPCUAServer
+   Version: 1.1
+  30:
+   Uri: 'urn:FTOptix:OPCUAServer:Net'
+   Module: FTOptix.OPCUAServer.Net
+   Version: 1.1
  Statistics:
-  TotalNodeCount: 1098
-  Objects: 234
-  ObjectTypes: 11
-  Variables: 843
+  TotalNodeCount: 2707
+  Objects: 544
+  ObjectTypes: 26
+  Variables: 2116
   VariableTypes: 0
   DataTypes: 0
-  Methods: 10
-  References: 52
+  Methods: 21
+  References: 97
   ReferenceTypes: 0
-  Files: 23
+  Files: 26
  Nodes:
  - File: Nodes/Corso_VR_28_01_2025.yaml

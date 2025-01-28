@@ -1,4 +1,5 @@
 Name: Recipes
+Id: g=5e60b917ebe089033f90bd5a2372d762
 Type: RecipesCategoryFolder
 Children:
 - Name: RecipeSchema1
@@ -6,15 +7,19 @@ Children:
   Type: RecipeSchema
   Children:
   - Name: Root
+    Id: g=545894c0df36332e780c756840a18848
     Type: BaseObjectType
     Children:
     - Name: VarInt
+      Id: g=9c9850c5ec4b948dc888ae5c753bb89e
       Type: BaseDataVariableType
       DataType: Int32
     - Name: VarString
+      Id: g=7f8a3d9d932883c8d16ecc490d30c45a
       Type: BaseDataVariableType
       DataType: String
     - Name: VarBool
+      Id: g=100867ff37ceca03e75d52b950a7a87b
       Type: BaseDataVariableType
       DataType: Boolean
   - Class: Reference
@@ -54,20 +59,24 @@ Children:
     Target: ns=23;i=60
     Direction: Forward
   - Name: Store
+    Id: g=b633e5e63d9884bae57f5550365416bb
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Corso_VR_28_01_2025/DataStores/EmbeddedDatabase1"
     Children:
     - Name: Kind
+      Id: g=2ce23397e61b76fca98c4dff0858403f
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/Store"
   - Name: TargetNode
+    Id: g=ba2eae16867fdb2191a6af43d0372dda
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Corso_VR_28_01_2025/Model/RecipeVariables"
     Children:
     - Name: Kind
+      Id: g=681f02ed9b9b6d6d8b7a8e518e2b4b63
       Type: PropertyType
       DataType: NodeId
   - Name: EditModel
@@ -75,11 +84,14 @@ Children:
     Type: BaseObjectType
     Children:
     - Name: VarInt
+      Id: g=66cf54ae5e42323fc0a4562d0fd4f957
       Type: BaseDataVariableType
       DataType: Int32
     - Name: VarString
+      Id: g=1cf54c1f52b0a591534d4f705fa33dd7
       Type: BaseDataVariableType
       DataType: String
     - Name: VarBool
+      Id: g=aa28f715f2ef5f7f6b7f10d5726b61de
       Type: BaseDataVariableType
       DataType: Boolean

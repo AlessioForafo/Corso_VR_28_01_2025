@@ -1,7 +1,9 @@
 Name: Translations
+Id: g=900907c362a1f32ee09f0893b8be7519
 Type: TranslationsCategoryFolder
 Children:
 - Name: LocalizationDictionary1
+  Id: g=293ac243aa9969e684925e6bf4c24013
   Type: LocalizationDictionary
   DataType: String
   ValueRank: OneOrMoreDimensions
@@ -9,29 +11,142 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [22,2],
+    "Dimensions": [56,4],
     "Body": [
-     "","en-US",
-     "RecipesEditorStoreOfSchema","Store of schema",
-     "Save","Save",
-     "Delete","Delete",
-     "Load","Load",
-     "Apply","Apply",
-     "RecipeControllerRecipe","Recipe",
-     "RecipeControllerEmptyRecipeName","Recipe name is empty",
-     "RecipeControllerCreatedAndSaved","created and saved",
-     "RecipeControllerDeleted","deleted",
-     "RecipeControllerRecipeApplied","Recipe applied",
-     "RecipeControllerRecipeLoaded","Recipe loaded",
-     "RecipeControllerSaved","saved",
-     "RecipesEditorNotARecipe","is not a recipe",
-     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found",
-     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set",
-     "RecipesEditorRecipeNotFound","Recipe not found",
-     "RecipesEditorNotAStore","is not a store",
-     "RecipesEditorNotSet","is not set",
-     "RecipesEditorStore","Store",
-     "RecipesEditorNotFound","not found",
-     "RecipesEditorEditModelOfSchema","EditModel of schema"
+     "","en-US","it-IT","ru-RU",
+     "RecipesEditorStoreOfSchema","Store of schema","","",
+     "Save","Save","","",
+     "Delete","Delete","","",
+     "Load","Load","","",
+     "Apply","Apply","","",
+     "RecipeControllerRecipe","Recipe","","",
+     "RecipeControllerEmptyRecipeName","Recipe name is empty","","",
+     "RecipeControllerCreatedAndSaved","created and saved","","",
+     "RecipeControllerDeleted","deleted","","",
+     "RecipeControllerRecipeApplied","Recipe applied","","",
+     "RecipeControllerRecipeLoaded","Recipe loaded","","",
+     "RecipeControllerSaved","saved","","",
+     "RecipesEditorNotARecipe","is not a recipe","","",
+     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found","","",
+     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set","","",
+     "RecipesEditorRecipeNotFound","Recipe not found","","",
+     "RecipesEditorNotAStore","is not a store","","",
+     "RecipesEditorNotSet","is not set","","",
+     "RecipesEditorStore","Store","","",
+     "RecipesEditorNotFound","not found","","",
+     "RecipesEditorEditModelOfSchema","EditModel of schema","","",
+     "Old password","Old password","","",
+     "LoginFormPasswordExpired","Password expired","","",
+     "Login","Login","Login","Login",
+     "New password","New password","","",
+     "Password","Password","","",
+     "LoginChangePasswordFormPasswordTooShort","Password too short","","",
+     "Confirm password","Confirm password","","",
+     "Change password","Change password","","",
+     "Your password is expired. Please enter a new one","Your password is expired.\nPlease enter a new one.","","",
+     "Current User:","Current User:","","",
+     "Logout","Logout","Logout","Logout",
+     "LoginFormLoginSuccessful","Login successful","","",
+     "LoginChangePasswordFormUnsupportedOperation","Unsupported operation","","",
+     "LoginFormAuthenticationFailed","Authentication failed","","",
+     "LoginChangePasswordFormWrongOldPassword","Wrong old password","","",
+     "LoginChangePasswordFormUserNotFound","User not found","","",
+     "LoginChangePasswordFormPasswordAlreadyUsed","Password already used","","",
+     "LoginChangePasswordFormPasswordChangedTooRecently","Password changed too recently","","",
+     "LoginChangePasswordFormPasswordsDoNotMatch","Passwords do not match","","",
+     "Create","Create","","",
+     "Groups","Groups","","",
+     "EmptyUserList","No users in list","","",
+     "Cancel","Cancel","","",
+     "Name","Name","","",
+     "PasswordChangedTooRecently","Password changed too recently","","",
+     "Locale:","Locale:","","",
+     "CannotCreateUserWithEmptyUsername","Cannot create user with empty username","","",
+     "UnableToGetUsers","Unable to get users","","",
+     "UsernameAlreadyExists","Username already exists","","",
+     "UserNotFound","User not found","","",
+     "PasswordAlreadyUsed","Password already used in the past","","",
+     "PasswordTooShort","Password too short","","",
+     "UnsupportedOperation","Unsupported operation","","",
+     "ChangesAppliedSuccessfully","Changes applied successfully","",""
     ]
    }
+- Name: LocalizationDictionary2
+  Id: g=6363553829e21e0d1454b10ac7e81e61
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [8,5],
+    "Body": [
+     "","en-US","it-IT","ru-RU","aa-DJ",
+     "motor","Motor","Motore","мотор","",
+     "Spindle","Spindle","Mandrino","веретено","",
+     "Ciao","","Ciao","","",
+     "table","table","tavolo","tavolo","",
+     "Ciao {0}","Hi {0}","Ciao {0}","Ciao {0}","",
+     "bottles_m2","bottles square meter","bottiglie mq","bottiglie mq","",
+     "bottles_sf","bottles square foot","bottiglie pq","bottiglie pq",""
+    ]
+   }
+- Name: ImportAndExportTranslations
+  Id: g=5b2c50b1cf099b960fd28ce8e4f93d10
+  Type: NetLogic
+  WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=c5d58da6b6b61319eb5a1d127b0673c1
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: CSVPath
+    Id: g=8d13e6544f066788cc13a860d2c779b4
+    Type: BaseDataVariableType
+    DataType: AbsoluteResourceUri
+    Value: "file:///C:/temp/translations.csv"
+  - Class: Method
+    Name: ExportTranslations
+    Id: g=feb5646e1ecccf9135c57a45fb79e589
+  - Class: Method
+    Name: ImportTranslations
+    Id: g=6587ffe6f114d1f5a2eac6cafa48dd2d
+  - Name: CharacterSeparator
+    Id: g=da3b7c6d48d16b8cf6455a5f5e2a7522
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ";"
+  - Name: WrapFields
+    Id: g=90a318810d4ae0386b5692747e976d8e
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: LocalizationDictionary
+    Id: g=919e4ce082f06464c5b76ecf16b06f1b
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/Corso_VR_28_01_2025/Translations/LocalizationDictionary2"
+    Children:
+    - Name: Kind
+      Id: g=ce9ec635ebbe191b861a57fd3a6cf6d0
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/VariableTypes/BaseVariableType/LocalizationDictionary"
+  - Name: ns=4;LibraryReference
+    Id: g=d543643f481836d7ed3a8185e8ca2b94
+    Type: ObjectLibraryReference
+    DataType: ObjectLibraryReferenceDataType
+    Value: 
+     {
+      "TypeId": {
+       "Id": 72,
+       "Namespace": 4
+      },
+      "Body": {
+       "libraryGuid": "f0701375ee41467993d632db6a8fdaa5",
+       "objectGuid": "e7cab90d0ab7e8b5b02218e38bca9a0e",
+       "objectVersion": 1,
+       "highestIgnoredVersion": 0
+      }
+     }

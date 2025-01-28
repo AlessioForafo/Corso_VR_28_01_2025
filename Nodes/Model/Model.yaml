@@ -1,5 +1,99 @@
 Name: Model
+Id: g=bb8fcb9981730317ec9fc7a61372b6d7
 Type: ModelCategoryFolder
 Children:
 - File: DataLoggerVariable/DataLoggerVariable.yaml
 - File: RecipeVariables/RecipeVariables.yaml
+- Name: Temperature
+  Id: g=9d3672dcfd1b93d42443fd78c874bb54
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 1.2345678806304932
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Id: g=518b091e1626f2d76e60c0afc01fd3b6
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+    Children:
+    - Name: UnitId
+      Id: g=fd80e7941503564b7bda36fa82313ee8
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 4408652
+    - Name: DisplayName
+      Id: g=32d937c1c3237f65bb1eddfc528ae670
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Description
+      Id: g=98c8796abca08db9693907be2773f7d6
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+- Name: AnalogVariable1
+  Id: g=c4577b32a64ba963c315483e28e6b8a9
+  Type: AnalogItemType
+  DataType: Float
+  Children:
+  - Name: EURange
+    Id: g=5bba7810c849281a2d04234d9a5bfd8b
+    Type: RangeType
+    DataType: Range
+    Children:
+    - Name: Low
+      Id: g=c2cb364fa5702ac21ef0912585f019ed
+      Type: BaseDataVariableType
+      DataType: Double
+    - Name: High
+      Id: g=75e33782a642f1013056c64ac85aaa81
+      Type: BaseDataVariableType
+      DataType: Double
+  - Name: EngineeringUnits
+    Id: g=8484a446fb5f3304c757ae06d7440498
+    Type: EUInformationType
+    DataType: EUInformation
+    Children:
+    - Name: UnitId
+      Id: g=90d9177845f067ae6c37f729933c327f
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 4408652
+    - Name: DisplayName
+      Id: g=5c36521de9958726848ab853aa797707
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Description
+      Id: g=00c6d7eff1f17e7c11dd48e7b4023ffd
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+- Name: bottles
+  Id: g=34471ea8691b2c7536bc765ae4016a13
+  Type: BaseDataVariableType
+  DataType: Int32
+  Children:
+  - Name: ns=0;EngineeringUnits
+    Id: g=55ac03beaf5befd79327ef7c9b6bc84f
+    Type: EUInformationType
+    DataType: EUInformation
+    DisplayName: {"NamespaceIndex":0,"TextId":"EngineeringUnitsDisplayName"}
+    Children:
+    - Name: UnitId
+      Id: g=42331b741fd09daae770338f75f489d1
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: DisplayName
+      Id: g=f00c6eaed6f19278d64f7b15c0cb61e3
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Description
+      Id: g=80d13faf6a1df4e62b2c2b3987097272
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: NamespaceIndex
+      Id: g=8949c249e9b8dec116e91f7859d67873
+      Type: BaseDataVariableType
+      DataType: NamespaceIndex
+      Value: 7
+- Name: Variable1
+  Id: g=35b31b3e03959d1b0c6f1fa3ef85410e
+  Type: BaseDataVariableType
+  DataType: Boolean

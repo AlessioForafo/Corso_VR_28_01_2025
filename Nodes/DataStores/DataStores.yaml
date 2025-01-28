@@ -1,4 +1,5 @@
 Name: DataStores
+Id: g=91a62b94e2096507c5a75a69e88b1688
 Type: DataStoresCategoryFolder
 Children:
 - Name: EmbeddedDatabase1
@@ -6,9 +7,11 @@ Children:
   Type: SQLiteStore
   Children:
   - Name: Tables
+    Id: g=fc92aa2431fb7c508002b2fed038df1f
     Type: BaseObjectType
     Children:
     - Name: DataLogger1
+      Id: g=af116bfa983a9f4c44ae1c717c4c8c7e
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -24,24 +27,31 @@ Children:
         Target: ns=9;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=921ac04167dbaedf95ce22020129c3f1
         Type: BaseObjectType
         Children:
         - Name: Timestamp
+          Id: g=4f47192f9589126f598812f5de4c3898
           Type: StoreColumn
           DataType: UtcTime
         - Name: LocalTimestamp
+          Id: g=5927fa5b237762521720a02d1221311e
           Type: StoreColumn
           DataType: DateTime
         - Name: Variable1
+          Id: g=e98e66657be25c39bbfe4023cf104d75
           Type: StoreColumn
           DataType: Int32
         - Name: Variable2
+          Id: g=fd2584b1611b88a1884686eb40fefbc3
           Type: StoreColumn
           DataType: Int32
         - Name: Variable3
+          Id: g=debf24c74b9f91e846880ccc9725a3a9
           Type: StoreColumn
           DataType: Int32
     - Name: RecipeSchema1
+      Id: g=19938645fde51195f6d251d67364be14
       Type: SQLiteStoreTable
       Children:
       - Class: Reference
@@ -57,18 +67,23 @@ Children:
         Target: ns=9;i=20
         Direction: Forward
       - Name: Columns
+        Id: g=4423ea500f14d2b74c98c86d6f679c0a
         Type: BaseObjectType
         Children:
         - Name: Name
+          Id: g=45232346d3a0c1d396e1150f169e56af
           Type: StoreColumn
           DataType: String
         - Name: /VarInt
+          Id: g=07258b29831ec57b0c4f0a773e730a11
           Type: StoreColumn
           DataType: Int32
         - Name: /VarString
+          Id: g=cfdb58bf84feca26883b0e8212172ec2
           Type: StoreColumn
           DataType: String
         - Name: /VarBool
+          Id: g=d26ef741fba8c1384433245b90d27968
           Type: StoreColumn
           DataType: Boolean
   - Class: Reference
@@ -78,20 +93,24 @@ Children:
     Target: ns=10;i=33
     Direction: Forward
   - Name: MaxColumnNameLength
+    Id: g=54d8ac7c70e1b15b8b390ee1aca7daa1
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
   - Name: MaxColumnCount
+    Id: g=8eb44e95f0d4d4d92fe08ca3bfaf9e85
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
   - Name: DataTypeCompatibilityMap
+    Id: g=334b9e4bcc0b52721252113133a0a5a0
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
   - Name: Status
+    Id: g=1ea8f5f34ad6241b5680de706de35306
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read
@@ -130,56 +149,70 @@ Children:
     Target: ns=9;i=59
     Direction: Forward
   - Name: Filename
+    Id: g=51002f5c19dba619af3a57e07628893b
     Type: BaseDataVariableType
     DataType: String
     Value: "DB_Progetto"
 - Name: ODBCDatabase1
+  Id: g=1a3dea638e87d6134abb29c69050a1d3
   Type: ODBCStore
   Children:
   - Name: Tables
+    Id: g=56aedf61fc3952e1540435f2095c3d6f
     Type: BaseObjectType
   - Name: Type
+    Id: g=699cb30da6cb440a320eeabb39d48a3e
     Type: PropertyType
     DataType: DBMSType
     Value: 3
   - Name: Username
+    Id: g=991e21e73ddf3c93c9646ace17720162
     Type: PropertyType
     DataType: String
     Value: "root"
   - Name: Password
+    Id: g=21eef7ceb72ebe9a34815fe8b8490286
     Type: PropertyType
     DataType: Password
     Value: "Ale15682"
   - Name: SFEnabled
+    Id: g=18e2dc478effcdefc2613a95894bfda2
     Type: BaseDataVariableType
     DataType: Boolean
   - Name: SFBufferMaxSize
+    Id: g=1577fed21d86b2743f674579e84d53d0
     Type: BaseDataVariableType
     DataType: UInt32
     Value: 1000
   - Name: SFBufferUsage
+    Id: g=f3bd4a04e0a3b1d9ddf022d8c4e66491
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
   - Name: SFBufferOverflow
+    Id: g=4c60c999cf70c46a112b503fe3f3eca4
     Type: BaseDataVariableType
     DataType: Boolean
     AccessLevel: Read
   - Name: MaxColumnNameLength
+    Id: g=9b9631a1fa2f9208976ad3ed5b1976bf
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
   - Name: MaxColumnCount
+    Id: g=53f985ab1a499c5fa9407cb21aa7f262
     Type: BaseDataVariableType
     DataType: UInt32
     AccessLevel: Read
   - Name: DataTypeCompatibilityMap
+    Id: g=5f26f740b21b67b18301beed40342fb9
     Type: BaseDataVariableType
     DataType: NodeId
     AccessLevel: Read
     ValueRank: OneOrMoreDimensions
     ArrayDimensions: [0,0]
   - Name: Status
+    Id: g=ca6e003fb933879c4430cb0f01059b9a
     Type: PropertyType
     DataType: StoreStatus
     AccessLevel: Read
@@ -218,10 +251,12 @@ Children:
     Target: ns=9;i=59
     Direction: Forward
   - Name: Server
+    Id: g=59ee90b63e7f76a19f8747e36524a0d7
     Type: PropertyType
     DataType: String
     Value: "127.0.0.1"
   - Name: Database
+    Id: g=f96726452343f98e13dac990345aceac
     Type: PropertyType
     DataType: String
     Value: "corso_vr"

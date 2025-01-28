@@ -1,12 +1,16 @@
 Name: DataLoggerVariable
+Id: g=b63c25b8ce353c9b2d1c6486b8779f57
 Type: FolderType
 Children:
 - Name: Variable1
+  Id: g=4e5766c0c4fd669c8b822fffd70a3d7b
   Type: BaseDataVariableType
   DataType: Int32
 - Name: Variable2
+  Id: g=487c2f667680cc39e43b2c73a4ad5864
   Type: BaseDataVariableType
   DataType: Int32
 - Name: Variable3
+  Id: g=a030c952db2e175081615d3d17bc9d70
   Type: BaseDataVariableType
   DataType: Int32

@@ -1,4 +1,5 @@
 Name: NetLogic
+Id: g=98c3f26fef5f00023d67481f9f96792e
 Type: NetLogicCategoryFolder
 Children:
 - Name: DataLoggerExporter
@@ -7,65 +8,81 @@ Children:
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
   - Name: CSVPath
+    Id: g=c5a44eb020bcabed9df5d2a8b398d25b
     Type: BaseDataVariableType
     DataType: AbsoluteResourceUri
     Value: "file:///C:/Temp/DataLoggerEsportato.csv"
   - Name: FieldDelimiter
+    Id: g=622582e8809065fada699743b4a8822f
     Type: BaseDataVariableType
     DataType: String
     Value: ";"
   - Name: Table
+    Id: g=a890f42a94334627307ac7bfeab80d7a
     Type: NodePointer
     DataType: NodeId
     Value: {"IdType":2,"Id":"9216d0b7b989999bb85f60694341c1b9","Namespace":7}
     Children:
     - Name: Kind
+      Id: g=e07ffcfc7328b379a806fd453e37ce62
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/Table"
   - Class: Method
     Name: Export
+    Id: g=47411e24b3ffdeeea4eb23adc041f19f
   - Name: Query
+    Id: g=4bed137587568cfff9da1fc786c23e3f
     Type: BaseDataVariableType
     DataType: String
     Value: "0"
     Children:
     - Name: StringFormatter1
+      Id: g=dd3efc5441175f282683556e99cccabe
       Type: StringFormatter
       Children:
       - Name: Format
+        Id: g=fc7f4e11cb93cf200b561a60e3107ee0
         Type: BaseDataVariableType
         DataType: LocalizedText
         ReferenceType: HasParameter
         Value: {"LocaleId":"en-US","Text":"Timestamp BETWEEN {1:sql_literal} AND {2:sql_literal}"}
       - Name: Source1
+        Id: g=659eb08643ad83dd3335da60bf97febd
         Type: BaseDataVariableType
         DataType: BaseDataType
         ReferenceType: HasSource
         Children:
         - Name: DynamicLink
+          Id: g=d0d9f1831b12e956fdbac2574339d678
           Type: DynamicLink
           DataType: NodePath
           Value: "../../../From"
       - Name: Source2
+        Id: g=55e2bab78167280affadf47444041dd0
         Type: BaseDataVariableType
         DataType: BaseDataType
         ReferenceType: HasSource
         Children:
         - Name: DynamicLink
+          Id: g=de2cdf8713e0dad79f5a9828c1f7dd82
           Type: DynamicLink
           DataType: NodePath
           Value: "../../../To"
   - Name: From
+    Id: g=9534f9fbbc0280ba4f7cf9699bc3b7ab
     Type: BaseDataVariableType
     DataType: DateTime
   - Name: To
+    Id: g=e013c090ef85e29034d164d278de47db
     Type: BaseDataVariableType
     DataType: DateTime
   - Name: WrapFields
+    Id: g=d5020b7815f3bc5d21cbb3fcb98723de
     Type: BaseDataVariableType
     DataType: Boolean
   - Name: ns=4;LibraryReference
+    Id: g=718532ad6de9eb0957d7ba11855c871f
     Type: ObjectLibraryReference
     DataType: ObjectLibraryReferenceDataType
     Value: 
@@ -82,54 +99,70 @@ Children:
       }
      }
 - Name: ClockLogic
+  Id: g=9d3375cca20106699c53fca57bece718
   Type: NetLogic
   WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
   Children:
   - Name: Time
+    Id: g=408f64f462917c350730b765449601ec
     Type: BaseDataVariableType
     DataType: DateTime
     Children:
     - Name: Year
+      Id: g=960280e87b16fb0c36ef7d3cb770afda
       Type: BaseDataVariableType
       DataType: Int32
     - Name: Month
+      Id: g=86a5540a876bcb2384b3c5c02c600936
       Type: BaseDataVariableType
       DataType: Int32
     - Name: Day
+      Id: g=adf53d0c4ffecedde5eed739ba1956d1
       Type: BaseDataVariableType
       DataType: Int32
     - Name: Hour
+      Id: g=7254218dfa1c4478d65ee2526a3b8c70
       Type: BaseDataVariableType
       DataType: Int32
     - Name: Minute
+      Id: g=63673b4df79c90dfd88f89383c102488
       Type: BaseDataVariableType
       DataType: Int32
     - Name: Second
+      Id: g=1427c831b2a70de2dac708db807c6f6b
       Type: BaseDataVariableType
       DataType: Int32
   - Name: UTCTime
+    Id: g=ed87b57b58c604c9cb520da345f7274d
     Type: BaseDataVariableType
     DataType: DateTime
     Children:
     - Name: Year
+      Id: g=ece8a8edc5ab7c923412a81fd598f00a
       Type: BaseDataVariableType
       DataType: Int32
     - Name: Month
+      Id: g=148bdfb9218d5d09603fe0c634ef77e2
       Type: BaseDataVariableType
       DataType: Int32
     - Name: Day
+      Id: g=08334f2195680c449cc27141f4e27668
       Type: BaseDataVariableType
       DataType: Int32
     - Name: Hour
+      Id: g=79df802e04681cca8dbceb5532e20f31
       Type: BaseDataVariableType
       DataType: Int32
     - Name: Minute
+      Id: g=62f71ce1df788d9d49ce691f9735882e
       Type: BaseDataVariableType
       DataType: Int32
     - Name: Second
+      Id: g=fe48c8afec0cd5fe00258a7f3d5e1218
       Type: BaseDataVariableType
       DataType: Int32
   - Name: ns=4;LibraryReference
+    Id: g=1379e38414991d76011584b9510066d1
     Type: ObjectLibraryReference
     DataType: ObjectLibraryReferenceDataType
     Value: 

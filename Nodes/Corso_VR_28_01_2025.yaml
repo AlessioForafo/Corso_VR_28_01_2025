@@ -1,52 +1,83 @@
 Name: Corso_VR_28_01_2025
+Id: g=b4e07b8e0a77e92f4d3f3509a1f86452
 Type: ProjectFolder
 Children:
 - Name: Localization
+  Id: g=38f12a65599b7e6e09d6eb388fe3534e
   Type: PropertyGroup
   Children:
   - Name: Locales
+    Id: g=b34b4fb3b5bd2d09c6ca93d79225af6e
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-US"]
+    Value: ["it-IT","en-US","ru-RU"]
   - Name: LocaleFallbackList
+    Id: g=cd142370b63fa20f90f08c5db64876b3
     Type: BaseDataVariableType
     DataType: LocaleId
     ValueRank: OneDimension
     ArrayDimensions: [0]
-    Value: ["en-US"]
+    Value: ["it-IT"]
+  - Name: MeasurementSystemMap
+    Id: g=60382d6b4dc60cca028535a6516cfe4f
+    Type: BaseDataVariableType
+    DataType: MeasurementSystemMapItem
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: [{"TypeId":{"Id":235,"Namespace":1},"Body":{"From":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":4408652,"NamespaceIndex":0}},"InternationalSystemOfUnits":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":4408652,"NamespaceIndex":0}},"USCustomarySystem":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":4408652,"NamespaceIndex":0}},"BritishImperialUnits":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":4604232,"NamespaceIndex":0}}}},{"TypeId":{"Id":235,"Namespace":1},"Body":{"From":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":0,"NamespaceIndex":7}},"InternationalSystemOfUnits":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":0,"NamespaceIndex":7}},"USCustomarySystem":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":1,"NamespaceIndex":7}},"BritishImperialUnits":{"TypeId":{"Id":244,"Namespace":1},"Body":{"Id":0,"NamespaceIndex":7}}}}]
 - Name: Authentication
+  Id: g=cbb727cc0e01cc22363cd001ae10ac9e
   Type: PropertyGroup
   Children:
   - Name: DefaultUserFolder
+    Id: g=f9c7fc2aa32ac5a329eca35aa222c531
     Type: NodePointer
     DataType: NodeId
     Value: "/Objects/Corso_VR_28_01_2025/Security/Users"
     Children:
     - Name: Kind
+      Id: g=e08e55b5f43e9674afe71ffadf30d25d
       Type: PropertyType
       DataType: NodeId
       Value: "/Types/ObjectTypes/BaseObjectType/FolderType"
+  - Name: AuthenticationMode
+    Id: g=66e059b675c87c27c693d0aff327760d
+    Type: BaseDataVariableType
+    DataType: AuthenticationMode
 - Name: PasswordPolicy
+  Id: g=e9d0ac15469a41567513f10c10cb34c3
   Type: PasswordPolicy
   Children:
   - Name: MaximumPasswordAge
+    Id: g=0ddcbf6a91a8a6c8552a3012b599291f
     Type: BaseDataVariableType
     DataType: UInt16
   - Name: EnforcePasswordHistory
+    Id: g=8f2ba22dc20e6f95b6beda77a3cd739e
     Type: BaseDataVariableType
     DataType: Byte
     Value: 1
   - Name: MinimumPasswordAge
+    Id: g=e32f9019c66cd58b92874d3c5d4ced9c
     Type: BaseDataVariableType
     DataType: UInt16
   - Name: MinimumPasswordLength
+    Id: g=0d31d5d42581f49c9090f20cdc46489d
     Type: BaseDataVariableType
     DataType: Byte
     Value: 8
 - Name: AlarmConfiguration
+  Id: g=a0d33eca090c8a15e9cb46baaa3059e1
   Type: PropertyGroup
+- Name: EngineeringUnitDictionary1
+  Id: g=58d8a4965bad7e5afe21ea8eb88629cb
+  Type: EngineeringUnitDictionary
+  DataType: EngineeringUnitDictionaryItem
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: [{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":0,"DisplayName":{"NamespaceIndex":7,"TextId":"bottles_m2"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"PhysicalDimension":0,"Slope":1.0,"Intercept":0.0}},{"TypeId":{"Id":239,"Namespace":1},"Body":{"UnitId":1,"DisplayName":{"NamespaceIndex":7,"TextId":"bottles_sf"},"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""},"PhysicalDimension":0,"Slope":0.4,"Intercept":0.0}}]
 - File: UI/UI.yaml
 - File: Model/Model.yaml
 - File: Converters/Converters.yaml
@@ -64,11 +95,13 @@ Children:
 - File: Translations/Translations.yaml
 - File: Retentivity/Retentivity.yaml
 - Name: RecipeSchema1
+  Id: g=7320980e53fcf2695999805e2124b1e9
   Type: Alias
   DataType: NodeId
   Value: "/Objects/Corso_VR_28_01_2025/Recipes/RecipeSchema1/EditModel"
   Children:
   - Name: Kind
+    Id: g=d2de9907bdaa9ea58580830e1128a275
     Type: PropertyType
     DataType: NodeId
     Value: "/Objects/Corso_VR_28_01_2025/Recipes/RecipeSchema1/EditModel"
