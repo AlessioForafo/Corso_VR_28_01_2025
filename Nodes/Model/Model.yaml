@@ -1,2 +1,5 @@
 Name: Model
 Type: ModelCategoryFolder
+Children:
+- File: DataLoggerVariable/DataLoggerVariable.yaml
+- File: RecipeVariables/RecipeVariables.yaml

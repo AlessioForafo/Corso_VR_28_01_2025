@@ -9,8 +9,29 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [1,2],
+    "Dimensions": [22,2],
     "Body": [
-     "","en-US"
+     "","en-US",
+     "RecipesEditorStoreOfSchema","Store of schema",
+     "Save","Save",
+     "Delete","Delete",
+     "Load","Load",
+     "Apply","Apply",
+     "RecipeControllerRecipe","Recipe",
+     "RecipeControllerEmptyRecipeName","Recipe name is empty",
+     "RecipeControllerCreatedAndSaved","created and saved",
+     "RecipeControllerDeleted","deleted",
+     "RecipeControllerRecipeApplied","Recipe applied",
+     "RecipeControllerRecipeLoaded","Recipe loaded",
+     "RecipeControllerSaved","saved",
+     "RecipesEditorNotARecipe","is not a recipe",
+     "RecipesEditorRecipeSchemaNotFound","RecipeSchema variable not found",
+     "RecipesEditorRecipeSchemaNotSet","RecipeSchema not set",
+     "RecipesEditorRecipeNotFound","Recipe not found",
+     "RecipesEditorNotAStore","is not a store",
+     "RecipesEditorNotSet","is not set",
+     "RecipesEditorStore","Store",
+     "RecipesEditorNotFound","not found",
+     "RecipesEditorEditModelOfSchema","EditModel of schema"
     ]
    }

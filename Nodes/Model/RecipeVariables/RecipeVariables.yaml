@@ -1,0 +1,17 @@
+Name: RecipeVariables
+Id: g=86a65d6f709ff30a682e6b764b044481
+Type: FolderType
+Children:
+- Name: VarInt
+  Id: g=836f9d94a78b9746ab184d6b252e8bb2
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: VarString
+  Id: g=31b856a3d992d2bad6aadb8f8a58248d
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: VarBool
+  Id: g=02341055e1996aaaf2ef31919a5cb6d5
+  Type: BaseDataVariableType
+  DataType: Boolean
