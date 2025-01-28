@@ -5314,6 +5314,265 @@ Children:
   Id: g=e636e5be0bf5ae3e64e2136a147678f9
   Supertype: Screen
   ReferenceType: HasComponent
+  Children:
+  - Name: Button1
+    Id: g=fba1db74f6cbaefd2f25c1aba3b324a1
+    Type: Button
+    Children:
+    - Name: Text
+      Id: g=58d68abbd4e673eb1452b579f9b30fb0
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      ModellingRule: Optional
+      Value: {"LocaleId":"it-IT","Text":"Button1"}
+    - Name: LeftMargin
+      Id: g=b4ec5b206c9857c24096dc9eafb71a77
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 30.0
+    - Name: TopMargin
+      Id: g=cd40f79224c15b14068335b9830859dd
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+    - Name: Width
+      Id: g=e26db20434abe017b6aed74c56bb114b
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 140.0
+    - Name: Height
+      Id: g=1e5c811c90b545e9a9f59782db10f8f8
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 60.0
+    - Name: MouseClickEventHandler1
+      Id: g=f113d021ff7bae9ed32a62ba94e42059
+      Type: EventHandler
+      Children:
+      - Name: ListenEventType
+        Id: g=fc72f7816bcb21c5c8e3854617ead45b
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+      - Name: MethodsToCall
+        Id: g=1a2782a455bddf8773a38ef2948173f8
+        Type: BaseObjectType
+        Children:
+        - Name: MethodContainer1
+          Id: g=7e01a4ebaf466d399c8c44943ffa05de
+          Type: BaseObjectType
+          Children:
+          - Name: ns=2;ObjectPointer
+            Id: g=28aeba73064269ca4a8ab1927761e9df
+            Type: NodePointer
+            DataType: NodeId
+            Value: "/Objects/Corso_VR_28_01_2025/NetLogic/RuntimeNetLogic1"
+            Children:
+            - Name: Kind
+              Id: g=27b1180018d42ded099b59c64a23eeda
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/ObjectTypes/BaseObjectType"
+          - Name: ns=2;Method
+            Id: g=07baf2cc33e5124b91267f65b256ac86
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "mioMetodo"
+          - Name: InputArguments
+            Id: g=de61e685f42e421fadcce9d209ac950c
+            Type: BaseObjectType
+            Children:
+            - Name: testoMessaggio
+              Id: g=9a5883c57b00122f72834e73864dec86
+              Type: BaseDataVariableType
+              DataType: String
+              Children:
+              - Name: DynamicLink
+                Id: g=ae43ee2df6379f44beabf8db35fb23a5
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../../TextBox1/Text"
+      - Name: EventArguments
+        Id: g=7d59b44994e8ea19aaf953dac74d1b2f
+        Type: MouseClickEvent
+        Children:
+        - Name: EventId
+          Id: g=41a6c0e69c02edab18841a62c5ec5ffd
+          Type: PropertyType
+          DataType: ByteString
+        - Name: EventType
+          Id: g=2460b0896d95e78a057547b732f4ace0
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceNode
+          Id: g=2940a309d87d0071b52fd87c4a0f5810
+          Type: PropertyType
+          DataType: NodeId
+        - Name: SourceName
+          Id: g=b552d4b2ebdda02bde87e928caafb90c
+          Type: PropertyType
+          DataType: String
+        - Name: Time
+          Id: g=58acbe63f320adcd751b3d2db77a3255
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: ReceiveTime
+          Id: g=b070f87dada84ea7ecb55b0c20295a2b
+          Type: PropertyType
+          DataType: UtcTime
+        - Name: Message
+          Id: g=6121702083625ae35547c5fadd28d6cf
+          Type: PropertyType
+          DataType: LocalizedText
+        - Name: Severity
+          Id: g=e45ecc68ba63baf5dcab9cf6d35c57c0
+          Type: PropertyType
+          DataType: UInt16
+  - Name: TextBox1
+    Id: g=7b08e64338c0bb66119a0398f32aee27
+    Type: TextBox
+    Children:
+    - Name: Text
+      Id: g=fa147d24c1ed83699320829722e4eef9
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+    - Name: Width
+      Id: g=dc7c0993a677d47956688b3bbfc0fe4c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 110.0
+    - Name: LeftMargin
+      Id: g=bae38c9c461d072383c1ea7bae6b5470
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 190.0
+    - Name: TopMargin
+      Id: g=4cd6aef2b00da7cef5492d8b45522204
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
+  - Name: SpinBox1
+    Id: g=734a050114645d80f02fc2cad02e110f
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Id: g=5a15d8b57627a7ac352712319b279bc2
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Id: g=199289dfb0d110124651e87085347003
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/Corso_VR_28_01_2025/Model/VariabiliCreateDaCodice/MyVar"
+        Children:
+        - Name: Mode
+          Id: g=0c244f80e6f46f65098555343576e539
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Id: g=77855fe1d8c59eb4eb40ae4e375f737d
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: LeftMargin
+      Id: g=7d77dd9e75d9003b676d504eb2f2335a
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: TopMargin
+      Id: g=ccbf8a9c152b79347ef3ba6fc818212c
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 58.0
+  - Name: SpinBox2
+    Id: g=b5250f6998542d75bfa8f3cb1c33c281
+    Type: SpinBox
+    Children:
+    - Name: Value
+      Id: g=e216a033c565c6f5d2edaec123a2c4bf
+      Type: BaseDataVariableType
+      DataType: Double
+      Children:
+      - Name: DynamicLink
+        Id: g=8b93a37e6a33752ee3b89e353c7de2dc
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/Corso_VR_28_01_2025/Model/VarPLC"
+        Children:
+        - Name: Mode
+          Id: g=8c04b8a0564a6c216d57d4db518bab36
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          ModellingRule: Optional
+          Value: 2
+    - Name: Width
+      Id: g=999ac98f30002e1e6481d30a8dc6e676
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 80.0
+    - Name: LeftMargin
+      Id: g=024f0cfdd2db8ce1ba8f7e2068bdd8fe
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 200.0
+    - Name: TopMargin
+      Id: g=3fbb45a326416012c59b8a7fce2d2c6f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 108.0
+  - Name: Rectangle1
+    Id: g=3eb60617932f4220d56f6a822c2c6e08
+    Type: Rectangle
+    Children:
+    - Name: Width
+      Id: g=51970080b3a265b18beae1b9cbed2b8f
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 140.0
+    - Name: Height
+      Id: g=32ad86e4c1751b1be494a12170f98909
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 109.0
+    - Name: BorderThickness
+      Id: g=df7141b2c0b093b6996c414d912eb2f8
+      Type: BaseDataVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 1.0
+    - Name: LeftMargin
+      Id: g=f2d8c9bec2ddfcacd401124f04a97bee
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: TopMargin
+      Id: g=bb0b539a2d78f406344b5842f08de303
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 160.0
+  - Name: CambioColoreRettangolo
+    Id: g=28976b0b267a7b9c86c17037fad2cd90
+    Type: NetLogic
 - Name: Screen7
   Id: g=2edf481f7acd97b3b30a5cb7a1b9a3af
   Supertype: Screen

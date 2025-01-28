@@ -97,3 +97,14 @@ Children:
   Id: g=35b31b3e03959d1b0c6f1fa3ef85410e
   Type: BaseDataVariableType
   DataType: Boolean
+- File: VariabiliCreateDaCodice/VariabiliCreateDaCodice.yaml
+- Name: Allarmi
+  Id: g=607ed0785f52a56a97aac57adf28eaab
+  Type: BaseDataVariableType
+  DataType: Boolean
+  ValueRank: OneDimension
+  ArrayDimensions: [10]
+- Name: VarPLC
+  Id: g=64a3afeb386693765eb64eb6e5d15e32
+  Type: BaseDataVariableType
+  DataType: Int32

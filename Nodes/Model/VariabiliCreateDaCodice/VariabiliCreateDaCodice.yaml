@@ -1,0 +1,8 @@
+Name: VariabiliCreateDaCodice
+Id: g=cbe021ec0fc73a328718138cd8b339fd
+Type: FolderType
+Children:
+- Name: MyVar
+  Id: g=c26fac04f72a40a59b0aef89a0e0a178
+  Type: BaseDataVariableType
+  DataType: Float

@@ -65,3 +65,623 @@ Children:
   - Class: Reference
     Target: ns=27;i=154
     Direction: Forward
+- Name: Allarme_0
+  Id: g=002c8590e71e4c1a9049d2bbb21e1a43
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=183ad4d4b5e96028a51121bb463c3744
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=58dbcf111de671fa5ef4adaa10278159
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=25b8a6d9726f42e2bbc3372b63a35e10
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_VR_28_01_2025/Model/Allarmi[0]"
+  - Name: LastEvent
+    Id: g=3e17e53d50285a3b5a06e54def3f4f36
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=72264343cd48cabfbd551b28a0ec3512
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"it-IT","Text":"Testo allarme 0"}
+- Name: Allarme_1
+  Id: g=c6f2afa4811c4230842faacfd35b896f
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7f4b149481e3ea7486bc42f5a8b89f88
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=078be5c7c01ddaf8e2f8a78c0828d42d
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=b8a33ad010254b409eaa7c13d8c845bc
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_VR_28_01_2025/Model/Allarmi[1]"
+  - Name: LastEvent
+    Id: g=1a77d5de1d2916d6d8f0f9b3f0eac379
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=b537760f8f9688d4c42057157e9249d3
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"it-IT","Text":"Testo allarme 1"}
+- Name: Allarme_2
+  Id: g=7c203727586f4e408d0fdb9f1f0cc4bc
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=6f8de8a07d67abcda86d6ce7653c9b72
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=73d25d60d379b50c691df4cf380a46e9
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=f396ee4b640c4c618d8c1a60055a3ea4
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_VR_28_01_2025/Model/Allarmi[2]"
+  - Name: LastEvent
+    Id: g=243d1e30ba7851fccb5cf2960b9ce0b4
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=ccd4bab8bf4cfd0efe3a99de16aaad44
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"it-IT","Text":"Testo allarme 2"}
+- Name: Allarme_3
+  Id: g=225e7805db9b4ec1808642c02279f1ab
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=7e8b353c3214b218e70d9d37fc7a4d5f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=9f9e754953d2068ae664978e427c73eb
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=44254a2a538e41af858b2dbe606a7d2b
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_VR_28_01_2025/Model/Allarmi[3]"
+  - Name: LastEvent
+    Id: g=b11304d0d3e24b6ea571eeae8d96177c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=59950a330d0545a0f135560a2abb211a
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"it-IT","Text":"Testo allarme 3"}
+- Name: Allarme_4
+  Id: g=2b107334341c486cbc289fc8b155ac63
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4434c9ebf2428a32f0c826e9d48682b2
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=106ae4cd0aa42b03b438d622200a7cc7
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=5921d29e772a4ff4a7b45b1a60ecec0d
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_VR_28_01_2025/Model/Allarmi[4]"
+  - Name: LastEvent
+    Id: g=208fbff7edda7dbb826bfdc780cc184a
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=654d84f85e3ff1b939e0247a94a99dac
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"it-IT","Text":"Testo allarme 4"}
+- Name: Allarme_5
+  Id: g=b9d425a9c42149a19cefe68a1f50a2b8
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=e0e9a6f5c87c1b47a243d4fd68e1dbe1
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=63f62e9283c5ace6ff8c9fe1d8c419b8
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=97b05ebfe9e64cb394610ff877b88a64
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_VR_28_01_2025/Model/Allarmi[5]"
+  - Name: LastEvent
+    Id: g=76f2c8fbcba886263a64ebb1d0cb68f1
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=1efe213124f8aedd1f9b3b3ce2abfad6
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"it-IT","Text":"Testo allarme 5"}
+- Name: Allarme_6
+  Id: g=1711dfc4f9eb4c56843a198109b7e6b2
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=2a9679b90e27237167999f22ca4d8113
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=57875045d277c9679e47a09de6dd4680
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=0aea25c2c94249b39aa19984f2554a07
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_VR_28_01_2025/Model/Allarmi[6]"
+  - Name: LastEvent
+    Id: g=957087f282254827cba448203ba3379c
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=7502ae0792938f7f44e581c43f9cb6db
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"it-IT","Text":"Testo allarme 6"}
+- Name: Allarme_7
+  Id: g=8262efdac44f4a64aff91f743817048d
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=cad570b2d8f5f96b7b06eba1feaefd5d
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=55ab93e8a121f4d5320bc4fa77e86e17
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=1610396272944d779ec4b4e4a65808f5
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_VR_28_01_2025/Model/Allarmi[7]"
+  - Name: LastEvent
+    Id: g=d632037163f47f7ad9f0d826925ee7ef
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=fc00b0f0e92bcdb32d965e6f6a909673
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"it-IT","Text":"Testo allarme 7"}
+- Name: Allarme_8
+  Id: g=462d1d631d9243b69876c6e18cfb41b7
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=4fb6f49e8b0ef1bb0fe085143bca983a
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=ec71b0fbdd92c2cdc44c2a4390af0aa0
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=1b80ec8c16ec4b15b0d3aa65e07b2480
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_VR_28_01_2025/Model/Allarmi[8]"
+  - Name: LastEvent
+    Id: g=a7e88cba220e02878f15d225df0c0fda
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=5cd1d7e497be2239ad85182946d1a583
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"it-IT","Text":"Testo allarme 8"}
+- Name: Allarme_9
+  Id: g=fac8f9891e234167b97b916f4f34f21e
+  Type: OffNormalAlarmController
+  Children:
+  - Name: NormalStateValue
+    Id: g=82ad117637f6964db5f71c13114c480f
+    Type: BaseDataVariableType
+    DataType: Double
+  - Name: InputValue
+    Id: g=69b66460c0fcb3f0d551279003e64d73
+    Type: BaseDataVariableType
+    DataType: Double
+    Children:
+    - Name: DynamicLink
+      Id: g=9e65ab40409c487aa91926d37b2f21db
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/Corso_VR_28_01_2025/Model/Allarmi[9]"
+  - Name: LastEvent
+    Id: g=4873b526282c96b2c08b6cf59aa5dfb6
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+  - Class: Reference
+    Target: ns=27;i=81
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=82
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=83
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=130
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=135
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=132
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=146
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=148
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=150
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=152
+    Direction: Forward
+  - Class: Reference
+    Target: ns=27;i=154
+    Direction: Forward
+  - Name: Message
+    Id: g=51ddbcf7b5d7abd66e4a091e5809f8ea
+    Type: BaseDataVariableType
+    DataType: LocalizedText
+    Value: {"LocaleId":"it-IT","Text":"Testo allarme 9"}

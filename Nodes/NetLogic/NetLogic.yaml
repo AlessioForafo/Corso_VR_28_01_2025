@@ -178,3 +178,58 @@ Children:
        "highestIgnoredVersion": 0
       }
      }
+- Name: DesignTimeNetLogic1
+  Id: g=49ea760bd4cf9b5e0854bd59866c074c
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=b8fab3008f517ebdaeb8c4849c767aa8
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: Test
+    Id: g=068fc4b22508c5910dcd7fc2cfbc71d3
+  - Name: MessaggioLog
+    Id: g=b9e1b09d2a8f128fbcb9df3779e2a47b
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Ciao"
+  - Class: Method
+    Name: CreaVariabili
+    Id: g=4ad06141295602227ef64dc7158db417
+  - Class: Method
+    Name: CreaAllarmi
+    Id: g=fcc7381c752fa349c5a1260c323bd182
+- Name: RuntimeNetLogic1
+  Id: g=f2f656bbaa9d0cc5a081f48cbcdc59a8
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: mioMetodo
+    Id: g=4950ef381a0c3aa5249d8a75df51e467
+    Children:
+    - Name: ns=0;InputArguments
+      Id: g=1006821f9481e4b38891431fd885ea7d
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"testoMessaggio","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]
+  - Name: Variable1
+    Id: g=e87dc6ee57d99fc9383d1e5229ff8ce0
+    Type: BaseDataVariableType
+    DataType: Float
+    Children:
+    - Name: DynamicLink
+      Id: g=07b1ad8426b44f524ed12a8348673013
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../Model/VariabiliCreateDaCodice/MyVar"
+      Children:
+      - Name: Mode
+        Id: g=d7bbbff75acff3775657cfb1f0f42077
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
